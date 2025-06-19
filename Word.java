@@ -1,9 +1,9 @@
-public class Word{
+public class Word implements Comparable<Word>{
     private String word; 
 
-    //Intialize word
+    //Intializes word and standarizes it by make it all uppercase 
     public Word(String word){
-        this.word = word; 
+        this.word = word.toUpperCase(); 
     }
 
     //Allows access to private word variable
@@ -17,9 +17,9 @@ public class Word{
         return word; 
     }
 
-    //Uses .equals to compare two word objects 
+    //Uses .compareTo to compare two word objects 
     @Override
-    public boolean equals(Object other){
-        return word.equals(other.getWord());
+    public int compareTo(Word other){
+        return word.compareTo(other.getWord());
     }
 }

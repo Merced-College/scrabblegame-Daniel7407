@@ -5,6 +5,7 @@
  * - Swap one letter from letter bank
  * - Checking if a word uses only letters from letter bank
  * - Option for multiple players and custom letter bank size 
+ * - Printing winner(s) when playing with multiple players
  */
 
 

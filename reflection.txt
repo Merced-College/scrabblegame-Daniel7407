@@ -1,0 +1,15 @@
+My understanding of object-oriented programming improved by helping 
+me understand better why it is useful. One thing I liked about it is
+that it helps organize the code together by grouping functions. I also 
+became better in deciding what should be used as instance variables. 
+Working with ArrayLists helped me become more familar with its methods 
+such as size() and get(). 
+
+A challenge that I faced was that I forgot how to read file in Java. I 
+consulted the W3Schools website to read on how to do it. After reading, I 
+realized I need to import some classes which I was able to use to read 
+the file. Another issue I encountered was that I created a few functions at
+at time without testing them. When I ran them, I got a lot of errors at once. 
+However, this was easy to fix because I got useful error messages and the lines
+the errors appeared at were correct. For this, it was useful to fix the bugs
+one by one to make sure that I didn't cause any new errors. 
